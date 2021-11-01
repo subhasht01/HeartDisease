@@ -104,12 +104,9 @@ print("Accuracy on test data",test_data_accuracy)
 
 """Building a predictive system"""
 
-input_data=(64,1,0,120,246,0,0,96,1,2.2,0,1,2)
-
-"""change the input data to a numpy array"""
+input_data=(65,1,3,145,233,1,0,150,0,2.3,0,0,1)
 
 input_data_as_numpy_array=np.asarray(input_data)
-
 """as we need to find prediction for one values so we reshape the numpy array as we are pridictiong for only one instance"""
 
 input_data_reshaped=input_data_as_numpy_array.reshape(1,-1)
@@ -120,17 +117,5 @@ if (prediction[0]==0):
   print('You do not have any heart disease.')
 else:
   print('You have a heart disease please contact your doctor.')
-
-input_data=(63,1,3,145,233,1,0,150,0,2.3,0,0,1)
-
-input_data_as_numpy_array=np.asarray(input_data)
-
-input_data_reshaped=input_data_as_numpy_array.reshape(1,-1)
-
-prediction=model.predict(input_data_reshaped)
-
-if (prediction[0]==0):
-  print('You do not have any heart disease.')
-else:
-  print('You have a heart disease please contact your doctor.')
+"""'You have a heart disease please contact your doctor."""
 
