@@ -15,4 +15,7 @@ As given in heart.csv file the factors in each column which responsible for hear
 12.number of major vessels (0-3) colored by flourosopy
 13.thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
-By using logistic regression on with 80% training sets and 20% testing we will achive targe
+By using logistic regression on with 80% training sets and 20% testing we will achive target.
+here target is 0 and 1.
+where 1-> person having heart disease.
+      0-> person not have any disease.
