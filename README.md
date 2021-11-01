@@ -1,6 +1,8 @@
 # HeartDisease
 
-The project of predicting heart disease for elder people(65+) based on multiple factor using machine learning.
+On of the major problems our elder face are Heart problems.
+
+This is a project for predicting heart disease for elder people(65+) based on multiple factor using machine learning.
 
 As given in heart.csv file the factors in each column which responsible for heart disease in 65+ people.
 1.age
@@ -21,3 +23,4 @@ By using logistic regression on given data with 80% training sets and 20% testin
 Here target is 0 and 1.
 where 1-> person having heart disease.
       0-> person not have any disease.
+
